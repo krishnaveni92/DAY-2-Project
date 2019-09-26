@@ -33,5 +33,6 @@ public static void main(String[] args) throws Exception {
 	WebElement cst=d.findElement(By.xpath("//span[@class='price']"));
 	String text = cst.getText();
 	System.out.println(text);
+	System.out.println("end");
 	}
 }
